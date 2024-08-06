@@ -1,0 +1,11 @@
+import UserProfile from "../components/Profile/UserProfile";
+
+function Profile() {
+  return (
+    <div>
+      <UserProfile />
+    </div>
+  );
+}
+
+export default Profile;
