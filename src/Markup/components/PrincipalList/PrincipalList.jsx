@@ -11,7 +11,7 @@ const PrincipalList = () => {
     const fetchPrincipals = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8000/detection/customers/principals/"
+          "https://bank-system-back.onrender.com/detection/customers/principals/"
         );
         setPrincipals(response.data);
         setLoading(false);
